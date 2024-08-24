@@ -8,10 +8,10 @@ on:
           required: true
       repo:
           description: 'Kernel source link (dont include . git at the end)'
-          required: true
+          required: no
       branch:
           description: 'Kernel source branch'
-          required: true
+          required: no
       token:
           description: 'Telegram bot token'
           required: true
